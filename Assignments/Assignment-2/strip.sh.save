@@ -1,0 +1,14 @@
+#!/bin/sh
+clear
+echo "Name: Christien Soosaipillai, Student ID: 100557844"
+
+declare -i k=$3
+declare -i m=$2
+
+
+
+ $first | head -$m |tail -$k| 
+
+echo "finished"
+  
+
