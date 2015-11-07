@@ -6,18 +6,31 @@ def has_no_e( str ):
     for i in str:
         if (i == 'e'):
 	    return False
-        else:
-	    return True
+        
+    return True 
 
 	    
 
 
+print "please enter a word"
 
-line = raw_input()
+word = raw_input()
 
 
-has_no_e( line )
-if ( has_no_e( line ) == True ):
+has_no_e( word )
+if ( has_no_e( word ) == True ):
     print "e is not found"
 else:
     print "e is found"
+
+
+
+searchfile = open("gadsby.txt", "r")
+for line in searchfile: 
+    if(has_no_e( line ) == False  ):
+        print "There is an e in the line"
+        break
+
+     
+
+

@@ -3,7 +3,5 @@
 clear
 echo "Name: Christien Soosaipillai, Student ID: 100557844"
 
-declare -i y=1
-
-echo "y"
+tail -2018 "gadsby.txt" | head -2016
 
