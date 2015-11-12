@@ -1,0 +1,20 @@
+
+
+echo hello world: A command that will print the words following the word command "echo" on the Terminal
+
+echo {con,pre}{sent,fer}{s,ed}:
+
+date: A command that prints out the Day of the week / Month / numerical day of the month / time  in the form of (Hour:Minutes:Seconds) /Time zone / year
+ 
+whoami: A command that prints out the laptop user's namestated in memory
+
+cal 2000: A command that provides a calander for every month of the given year asked from the user
+
+cal 9 1752: gives the specific calender for the given month (9) and the given year (1752)
+
+bc -l: gives information on the latop brand name, model, copyright year
+
+echo 5+4 | bc -l: calculate the sum of 5 + 4
+
+
+

@@ -1,8 +1,0 @@
-reader = open('gadsby_stripped.txt', 'r')
-data = reader.read()
-reader.close()
-
-
-
-for line in gadsby_stripped.txt:
-	

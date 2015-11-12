@@ -1,12 +1,14 @@
-'''Count the number of observations in each group. Each observation
-is on a separate line, and groups are separated by blank line.'''
+#Count the number of observations in each group. Each observation
+#is on a separate line, and groups are separated by blank line
 
-def count_observations(lines):
+#!/usr/bin/python
+
+def count_observations( lines ):
     counts = []
     current = 0
     for line in lines:
         line = line.strip()
-        if line == '':
+        if ( line == '' ):
             counts.append(current)
             current = 0
         else:
