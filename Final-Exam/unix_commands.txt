@@ -4,6 +4,7 @@
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
 
+#cat lengths classlist.csv
 
 
 
@@ -13,6 +14,7 @@
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
+#wc -l classlist.csv
 
 
 
@@ -24,7 +26,7 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
-
+#Adam Holte  would be a the top of the list and Yevette Hayward would be at the bottom
 
 
 # part (d)
